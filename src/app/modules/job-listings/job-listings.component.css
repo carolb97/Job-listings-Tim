@@ -1,0 +1,32 @@
+.mat-card {
+	margin-bottom: 15px;
+	background-color: hsl(0, 0%, 100%);
+}
+
+.mat-form-field {
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+}
+
+.filter-attributes {
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.filter-attributes:hover {
+	background-color: hsl(180, 29%, 50%);
+	color: whitesmoke;
+}
+
+.filter-box {
+	background-color: white;
+}
+
+.job:hover {
+	border-left: hsl(180, 29%, 50%) 5px solid;
+}
+
+.extra-info {
+	color: hsl(180, 8%, 52%)
+}
