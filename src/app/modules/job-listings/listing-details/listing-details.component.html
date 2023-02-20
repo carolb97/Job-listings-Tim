@@ -1,0 +1,23 @@
+<div fxFlex fxLayout="row" fxLayoutAlign="start center">
+	<img  src= "assets/{{job.logo.toString()}}" height="75" width="75">
+</div>
+
+<div fxFlex="300px" [style.margin-left]="'15px'" fxLayout="column" fxLayoutAlign="space-around start">
+
+	<div class="company">
+		{{job.company}} 
+		&nbsp;&nbsp;
+		<mark *ngIf="job.new == true" class="new-mark">NEW!</mark>
+		&nbsp;&nbsp;
+		<mark *ngIf="job.featured == true" class="featured-mark">FEATURED</mark>
+	</div>
+
+	<div class="position">
+		{{job.position}}
+	</div>
+
+	<div class="posted-contract-location">
+		{{job.postedAt}} &#8226; {{job.contract}} &#8226; {{job.location}}
+	</div>
+
+</div>

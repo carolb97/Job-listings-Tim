@@ -1,0 +1,40 @@
+.new-mark {
+	border-radius: 25px;
+	color:white;
+	background-color:
+	hsl(180, 29%, 50%);
+	padding: .5em;
+    padding-top: .6em;
+	font-size:10px;
+	font-weight:800;
+	align-content: baseline;
+}
+
+.featured-mark {
+	border-radius: 25px;
+	color:white;
+	background-color:#2a3838;
+	padding: .5em;
+	padding-top: .6em;
+    font-size:10px;
+	font-weight:800;
+	align-content: baseline;
+}
+
+.company {
+	font-size:15px; 
+	font-weight:700;
+	color:hsl(180, 29%, 50%);
+}
+
+.position {
+	font-size:18px;
+	font-weight:bold;
+	color: black;
+}
+
+.posted-contract-location {
+	font-weight:200;
+	font-size:15px;
+	color:#889894;
+}
